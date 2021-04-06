@@ -10,8 +10,17 @@ function init() {
         el: "#app",
         data: {
 
-            "message" : "Rathalos",
-            "rathalos" : "img/MHRise-Rathalos_Icon.png"
+            "name" : "Rathalos",
+            "monster" : "img/MHRise-Rathalos_Icon.png",
+        },
+
+        methods: {
+
+            changeMonster: function() {
+
+                this.name = "Rajang";
+                this.monster = "img/rajang.png";   
+            }
         }
     
     })

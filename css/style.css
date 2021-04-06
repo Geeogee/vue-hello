@@ -23,15 +23,6 @@
     margin: 10px;
 }
 
-h1 {
-    color: #a3533e;
-}
-
-h1::first-letter {
-
-    color: #181d3d;
-}
-
 #app img {
 
     width: 100px;
