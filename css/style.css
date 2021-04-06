@@ -1,3 +1,39 @@
-body {
-    background-color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app > * {
+
+    margin: 10px;
+}
+
+h1 {
+    color: #a3533e;
+}
+
+h1::first-letter {
+
+    color: #181d3d;
+}
+
+#app img {
+
+    width: 100px;
+    height: 100px;
 }
